@@ -1,0 +1,118 @@
+*{
+    font-family: system-ui;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+nav{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+.links{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+}
+
+.get{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(0, 0, 255);
+    border-radius: 7px;
+    color: white;
+}
+
+.links:hover{
+    color: rgb(0, 60, 255);
+    transition: all ease 0.5s;
+}
+
+.get:hover{
+    transition: all ease 0.5s;
+    background-color: rgb(5, 5, 187);
+}
+
+/* fin del header */
+
+div{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 300px;
+    background: white;
+    width: 345px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px -6px rgba(0, 0, 0, 0.507);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.p{
+    font-size: 19px;
+    color: rgb(143, 143, 143);
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p2{
+    font-weight: 400;
+}
+
+h5{
+    font-size: 18px;
+}
+
+button{
+    background: #000000e3;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    color:white;
+    font-weight: 600;
+}
+
+button:hover{
+    transform: scale(1.070);
+    cursor: pointer;
+    background: #000000;
+    transition: all ease 0.5s;
+}
